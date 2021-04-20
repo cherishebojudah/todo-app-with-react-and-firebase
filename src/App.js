@@ -11,10 +11,11 @@ function App() {
       <button>Add Todo</button>
 
       <ul>
-        <li></li>
-        <li></li>
+        {todos.map(todo => (
+          <li>{todo}</li>
+        ))}
       </ul>
-      
+
     </div>
   );
 }
