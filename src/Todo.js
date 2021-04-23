@@ -4,7 +4,7 @@ import { List, ListItem, ListItemText, ListItemAvatar, Avatar } from '@material-
 
 function Todo (props) {
     return (
-        <List>
+        <List className = "todo_list">
             <ListItem>
                 <ListItemText primary={props.text} secondary = "Dummy Deadline" />
             </ListItem>
